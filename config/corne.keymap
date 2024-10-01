@@ -70,19 +70,19 @@
         ColemakDH {
             label = "DEF";
             bindings = <
-  &kp Q  &kp W  &kp F   &kp P   &kp B     &kp J   &kp L   &kp U      &kp O    &kp BACKSPACE
-  &kp A  &kp R  &kp S   &kp T   &kp G     &kp M   &kp N   &kp E      &kp I    &kp O
-  &kp Z  &kp X  &kp C   &kp D   &kp V     &kp K   &kp H   &kp COMMA  &kp DOT  &kp EQUAL
-                &trans  &trans  &trans    &trans  &trans  &trans
+  &kp Q  &kp W  &kp F             &kp P               &kp B        &kp J            &kp L   &kp U      &kp O                   &kp BACKSPACE
+  &kp A  &kp R  &kp S             &kp T               &kp G        &kp M            &kp N   &kp E      &kp I                   &kp O
+  &kp Z  &kp X  &kp C             &kp D               &kp V        &kp K            &kp H   &kp COMMA  &mt EXCLAMATION PERIOD  &kp EQUAL
+                &mt DEL LEFT_WIN  &mt LEFT_SHIFT TAB  &kp ENTER    &mt LCTRL SPACE  &trans  &sl 1
             >;
         };
 
         layer_1 {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+  &kp ESC    &trans  &trans  &trans          &trans    &trans              &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+  &kp TAB    &trans  &trans  &trans          &trans    &mt HOME BACKSLASH  &trans         &kp LEFT_BRACE        &mt END RIGHT_BRACE    &trans
+  &kp TILDE  &trans  &trans  &trans          &trans    &trans              &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &sl 3
+                     &sl 0   &kp LEFT_SHIFT  &trans    &trans              &kp RIGHT_ALT  &sl 2
             >;
         };
 
@@ -90,8 +90,8 @@
             bindings = <
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &sl 3
+                  &sl 0   &trans  &trans    &trans  &trans  &sl 1
             >;
         };
 
@@ -99,8 +99,8 @@
             bindings = <
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &sl 2
+                  &sl 0   &trans  &trans    &trans  &trans  &sl 1
             >;
         };
 
@@ -109,7 +109,7 @@
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+                  &sl 0   &trans  &trans    &trans  &trans  &sl 1
             >;
         };
 
@@ -118,7 +118,25 @@
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+                  &sl 0   &trans  &trans    &trans  &trans  &sl 1
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &sl 0   &trans  &trans    &trans  &trans  &sl 1
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &sl 0   &trans  &trans    &trans  &trans  &sl 1
             >;
         };
     };
