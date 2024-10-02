@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <locale/keys_en_gb_extended.h>
 
 #define DEFAULT_L 0
 
@@ -84,7 +85,7 @@
 
         layer_1 {
             bindings = <
-  &mt C_QUIT ESCAPE  &trans  &kp     &kp DOLLAR      &trans    &trans              &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+  &mt C_QUIT ESCAPE  &trans  &kp GB_POUND_SIGN     &kp DOLLAR      &trans    &trans              &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
   &kp TAB            &trans  &trans  &trans          &trans    &mt HOME BACKSLASH  &trans         &kp LEFT_BRACE        &mt END RIGHT_BRACE    &trans
   &kp TILDE          &trans  &trans  &trans          &trans    &trans              &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &sl 3
                              &sl 0   &kp LEFT_SHIFT  &trans    &kp SPACE           &kp RIGHT_ALT  &sl 2
