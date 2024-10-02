@@ -91,10 +91,10 @@
         ColemakDH {
             label = "DEF";
             bindings = <
-  &kp Q  &kp W  &kp F             &kp P               &kp B        &kp J            &kp L   &kp U      &kp O                   &kp BACKSPACE
-  &kp A  &kp R  &kp S             &kp T               &kp G        &kp M            &kp N   &kp E      &kp I                   &kp O
-  &kp Z  &kp X  &kp C             &kp D               &kp V        &kp K            &kp H   &kp COMMA  &mt EXCLAMATION PERIOD  &kp EQUAL
-                &mt DEL LEFT_WIN  &mt LEFT_SHIFT TAB  &kp ENTER    &mt LCTRL SPACE  &trans  &sl 1
+  &kp Q  &kp W  &kp F             &kp P               &kp B        &kp J            &kp L          &kp U      &kp O                   &kp BACKSPACE
+  &kp A  &kp R  &kp S             &kp T               &kp G        &kp M            &kp N          &kp E      &kp I                   &kp O
+  &kp Z  &kp X  &kp C             &kp D               &kp V        &kp K            &kp H          &kp COMMA  &mt EXCLAMATION PERIOD  &kp EQUAL
+                &mt DEL LEFT_WIN  &mt LEFT_SHIFT TAB  &kp ENTER    &mt LCTRL SPACE  &kp RIGHT_ALT  &sl 1
             >;
         };
 
@@ -107,12 +107,12 @@
             >;
         };
 
-        layer_2 {
+        Numbers {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &sl 3
-                  &sl 0   &trans  &trans    &trans  &trans  &sl 1
+  &kp ESC  &kp K_PLAY_PAUSE  &kp K_PREV            &kp K_NEXT            &kp UNDERSCORE    &kp N7     &kp N8    &kp N9  &kp N0     &kp BACKSPACE
+  &kp TAB  &kp K_MUTE        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp PLUS          &kp N4     &kp N5    &kp N6  &kp DOT    &kp MINUS
+  &trans   &kp ASTERISK      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp MINUS         &kp N1     &kp N2    &kp N3  &kp EQUAL  &sl 3
+                             &sl 0                 &kp LSHFT             &kp KP_ENTER      &kp SPACE  &kp RALT  &sl 1
             >;
         };
 
