@@ -79,8 +79,9 @@
         };
 
         Euro {
-            bindings = <&none>;
+            bindings = <&euro>;
             key-positions = <2 3>;
+            layers = <1>;
         };
     };
 
