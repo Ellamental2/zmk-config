@@ -209,10 +209,10 @@
 
         Navigation {
             bindings = <
-  &kp ESCAPE   &trans  &trans  &trans     &trans       &kp PRINTSCREEN  &trans    &trans    &task_manager  &kp BACKSPACE
-  &kp TAB      &trans  &trans  &trans     &trans       &trans           &kp LEFT  &kp UP    &kp RIGHT      &kp LWIN
-  &kp LS(TAB)  &trans  &trans  &trans     &trans       &trans           &kp HOME  &kp DOWN  &kp END        &to 2
-                       &to 0   &kp LCTRL  &kp ENTER    &trans           &kp RALT  &to 1
+  &kp ESCAPE   &kp F1  &kp F2   &kp F3     &kp F4       &kp PRINTSCREEN  &trans    &trans    &task_manager  &kp BACKSPACE
+  &kp TAB      &kp F5  &kp f6   &kp F7     &kp F8       &trans           &kp LEFT  &kp UP    &kp RIGHT      &kp LWIN
+  &kp LS(TAB)  &kp F9  &kp F10  &kp F11    &kp F12      &trans           &kp HOME  &kp DOWN  &kp END        &to 2
+                       &to 0    &kp LCTRL  &kp ENTER    &trans           &kp RALT  &to 1
             >;
         };
 
