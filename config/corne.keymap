@@ -183,7 +183,7 @@
   &kp Q  &kp W  &kp F           &kp P    &kp B        &kp J            &kp L          &kp U      &kp Y                   &kp BACKSPACE
   &kp A  &kp R  &kp S           &kp T    &kp G        &kp M            &kp N          &kp E      &kp I                   &kp O
   &kp Z  &kp X  &kp C           &kp D    &kp V        &kp K            &kp H          &kp COMMA  &mt EXCLAMATION PERIOD  &kp EQUAL
-                &kp LEFT_SHIFT  &kp TAB  &kp ENTER    &mt LCTRL SPACE  &kp RIGHT_ALT  &to 1
+                &kp LSHIFT  &kp TAB  &kp ENTER    &mt LCTRL SPACE  &kp RALT  &to 1
             >;
         };
 
@@ -192,7 +192,7 @@
   &mt C_QUIT ESCAPE  &kp AT        &gb_pound       &kp DOLLAR         &kp PERCENT    &kp AMPERSAND       &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
   &kp TAB            &kp HASH      &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp GRAVE      &mt HOME BACKSLASH  &kp SLASH      &kp LEFT_BRACE        &mt END RIGHT_BRACE    &kp EXCLAMATION
   &kp TILDE          &kp QUESTION  &kp PIPE        &kp UNDERSCORE     &kp CARET      &kp MINUS           &kp PLUS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 3
-                                   &to 0           &kp LEFT_SHIFT     &kp ENTER      &kp SPACE           &kp RIGHT_ALT  &to 2
+                                   &to 0           &kp LEFT_SHIFT     &kp ENTER      &kp SPACE           &kp RALT  &to 2
             >;
         };
 
@@ -201,7 +201,7 @@
   &kp ESC  &kp K_PLAY_PAUSE  &kp K_PREV            &kp K_NEXT            &kp UNDERSCORE    &kp N7     &kp N8         &kp N9  &kp N0     &kp BACKSPACE
   &kp TAB  &kp K_MUTE        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp PLUS          &kp N4     &kp N5         &kp N6  &kp DOT    &kp MINUS
   &trans   &kp ASTERISK      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp MINUS         &kp N1     &kp N2         &kp N3  &kp EQUAL  &to 1
-                             &to 0                 &kp LEFT_SHIFT        &kp KP_ENTER      &kp SPACE  &kp RIGHT_ALT  &to 3
+                             &to 0                 &kp LSHIFT           &kp KP_ENTER      &kp SPACE  &kp RALT  &to 3
             >;
         };
 
@@ -210,7 +210,7 @@
   &kp ESCAPE   &trans          &trans          &trans           &trans              &kp PRINTSCREEN  &trans          &trans    &task_manager  &kp BACKSPACE
   &kp TAB      &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &msc SCROLL_UP      &trans           &kp LEFT_ARROW  &kp UP    &kp RIGHT      &kp LEFT_WIN
   &kp LS(TAB)  &trans          &mmv MOVE_DOWN  &mkp RCLK        &msc SCROLL_DOWN    &trans           &kp HOME        &kp DOWN  &kp END        &to 2
-                               &to 0           &kp LCTRL        &kp ENTER           &mkp LCLK        &kp LEFT_ALT    &to 1
+                               &to 0           &kp LCTRL        &kp ENTER           &mkp LCLK        &kp RALT    &to 1
             >;
         };
 
