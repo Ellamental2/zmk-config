@@ -54,7 +54,7 @@
             #binding-cells = <0>;
             bindings = &kt LEFT_ALT &kp LA(KP_NUMBER_0) &kp LA(KP_NUMBER_1) &kp LA(KP_NUMBER_3) &kp LA(KP_NUMBER_5)>;
             label = "HASH";
-        }
+        };
 
         task_manager: task_manager {
             compatible = "zmk,behavior-macro";
