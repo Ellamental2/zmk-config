@@ -100,6 +100,12 @@
             bindings = <&kp LG(L)>;
             key-positions = <32 33>;
         };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <30 28 27>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -117,10 +123,10 @@
 
         Symbols {
             bindings = <
-  &mt C_QUIT ESCAPE  &kp AT        &kp HASH        &kp DOLLAR         &kp PERCENT    &kp AMPERSAND       &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+  &mt C_QUIT ESCAPE  &kp AT        &kp HASH        &kp DOLLAR         &kp PERCENT    &kp AMPERSAND       &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
   &kp TAB            &hash         &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp GRAVE      &mt HOME BACKSLASH  &mt PERCENT SLASH  &kp LEFT_BRACE        &mt END RIGHT_BRACE    &kp EXCLAMATION
-  &kp TILDE          &kp QUESTION  &kp PIPE        &kp UNDERSCORE     &kp CARET      &kp MINUS           &kp PLUS               &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 3
-                                   &to 0           &kp LEFT_SHIFT     &kp ENTER      &kp SPACE           &kp RALT               &to 2
+  &kp TILDE          &kp QUESTION  &kp PIPE        &kp UNDERSCORE     &kp CARET      &kp MINUS           &kp PLUS           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 3
+                                   &to 0           &kp LEFT_SHIFT     &kp ENTER      &kp SPACE           &kp RALT           &to 2
             >;
 
             display-name = "SYM";
