@@ -179,7 +179,7 @@
 
         ColemakDH {
             label = "DEF";
-            display-name = "BASE"
+            display-name = "BASE";
             bindings = <
   &kp Q  &kp W  &kp F           &kp P    &kp B        &kp J            &kp L          &kp U      &kp Y                   &kp BACKSPACE
   &kp A  &kp R  &kp S           &kp T    &kp G        &kp M            &kp N          &kp E      &kp I                   &kp O
@@ -189,7 +189,7 @@
         };
 
         Symbols {
-                display-name = "SYM"
+                display-name = "SYM";
             bindings = <
   &mt C_QUIT ESCAPE  &kp AT        &kp HASH       &kp DOLLAR         &kp PERCENT    &kp AMPERSAND       &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
   &kp TAB            &HASH      &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp GRAVE      &mt HOME BACKSLASH  &kp SLASH      &kp LEFT_BRACE        &mt END RIGHT_BRACE    &kp EXCLAMATION
@@ -199,7 +199,7 @@
         };
 
         Numbers {
-                display-name = "NUM"
+                display-name = "NUM";
             bindings = <
   &kp ESC  &kp K_PLAY_PAUSE  &kp K_PREV            &kp K_NEXT            &kp UNDERSCORE    &kp N7     &kp N8         &kp N9  &kp N0     &kp BACKSPACE
   &kp TAB  &kp K_MUTE        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp PLUS          &kp N4     &kp N5         &kp N6  &kp DOT    &kp MINUS
@@ -209,7 +209,7 @@
         };
 
         Navigation {
-                display-name = "NAV"
+                display-name = "NAV";
             bindings = <
   &kp ESCAPE   &trans  &trans  &trans     &trans     &kp PRINTSCREEN  &trans          &trans    &task_manager  &kp BACKSPACE
   &kp TAB      &trans  &trans  &trans     &trans     &trans           &kp LEFT        &kp UP    &kp RIGHT      &kp LWIN
