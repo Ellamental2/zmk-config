@@ -6,7 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/keys.h>
 
 #define DEFAULT_L 0
 
@@ -181,40 +181,40 @@
             label = "DEF";
             display-name = "BASE";
             bindings = <
-  &kp Q  &kp W  &kp F           &kp P    &kp B        &kp J            &kp L          &kp U      &kp Y                   &kp BACKSPACE
-  &kp A  &kp R  &kp S           &kp T    &kp G        &kp M            &kp N          &kp E      &kp I                   &kp O
-  &kp Z  &kp X  &kp C           &kp D    &kp V        &kp K            &kp H          &kp COMMA  &mt EXCLAMATION PERIOD  &kp EQUAL
+  &kp Q  &kp W  &kp F       &kp P    &kp B        &kp J            &kp L     &kp U      &kp Y                   &kp BACKSPACE
+  &kp A  &kp R  &kp S       &kp T    &kp G        &kp M            &kp N     &kp E      &kp I                   &kp O
+  &kp Z  &kp X  &kp C       &kp D    &kp V        &kp K            &kp H     &kp COMMA  &mt EXCLAMATION PERIOD  &kp EQUAL
                 &kp LSHIFT  &kp TAB  &kp ENTER    &mt LCTRL SPACE  &kp RALT  &to 1
             >;
         };
 
         Symbols {
-                display-name = "SYM";
+            display-name = "SYM";
             bindings = <
-  &mt C_QUIT ESCAPE  &kp AT        &kp HASH       &kp DOLLAR         &kp PERCENT    &kp AMPERSAND       &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-  &kp TAB            &HASH      &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp GRAVE      &mt HOME BACKSLASH  &kp SLASH      &kp LEFT_BRACE        &mt END RIGHT_BRACE    &kp EXCLAMATION
-  &kp TILDE          &kp QUESTION  &kp PIPE        &kp UNDERSCORE     &kp CARET      &kp MINUS           &kp PLUS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 3
-                                   &to 0           &kp LEFT_SHIFT     &kp ENTER      &kp SPACE           &kp RALT  &to 2
+  &mt C_QUIT ESCAPE  &kp AT        &kp HASH        &kp DOLLAR         &kp PERCENT    &kp AMPERSAND       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+  &kp TAB            &hash         &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp GRAVE      &mt HOME BACKSLASH  &kp SLASH     &kp LEFT_BRACE        &mt END RIGHT_BRACE    &kp EXCLAMATION
+  &kp TILDE          &kp QUESTION  &kp PIPE        &kp UNDERSCORE     &kp CARET      &kp MINUS           &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 3
+                                   &to 0           &kp LEFT_SHIFT     &kp ENTER      &kp SPACE           &kp RALT      &to 2
             >;
         };
 
         Numbers {
-                display-name = "NUM";
+            display-name = "NUM";
             bindings = <
-  &kp ESC  &kp K_PLAY_PAUSE  &kp K_PREV            &kp K_NEXT            &kp UNDERSCORE    &kp N7     &kp N8         &kp N9  &kp N0     &kp BACKSPACE
-  &kp TAB  &kp K_MUTE        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp PLUS          &kp N4     &kp N5         &kp N6  &kp DOT    &kp MINUS
-  &trans   &kp ASTERISK      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp MINUS         &kp N1     &kp N2         &kp N3  &kp EQUAL  &to 1
-                             &to 0                 &kp LSHIFT           &kp KP_ENTER      &kp SPACE  &kp RALT  &to 3
+  &kp ESC  &kp K_PLAY_PAUSE  &kp K_PREV            &kp K_NEXT            &kp UNDERSCORE    &kp N7     &kp N8    &kp N9  &kp N0     &kp BACKSPACE
+  &kp TAB  &kp K_MUTE        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp PLUS          &kp N4     &kp N5    &kp N6  &kp DOT    &kp MINUS
+  &trans   &kp ASTERISK      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp MINUS         &kp N1     &kp N2    &kp N3  &kp EQUAL  &to 1
+                             &to 0                 &kp LSHIFT            &kp KP_ENTER      &kp SPACE  &kp RALT  &to 3
             >;
         };
 
         Navigation {
-                display-name = "NAV";
+            display-name = "NAV";
             bindings = <
-  &kp ESCAPE   &trans  &trans  &trans     &trans     &kp PRINTSCREEN  &trans          &trans    &task_manager  &kp BACKSPACE
-  &kp TAB      &trans  &trans  &trans     &trans     &trans           &kp LEFT        &kp UP    &kp RIGHT      &kp LWIN
-  &kp LS(TAB)  &trans  &trans  &trans     &trans     &trans           &kp HOME        &kp DOWN  &kp END        &to 2
-                       &to 0   &kp LCTRL  &kp ENTER  &trans           &kp RALT        &to 1
+  &kp ESCAPE   &trans  &trans  &trans     &trans       &kp PRINTSCREEN  &trans    &trans    &task_manager  &kp BACKSPACE
+  &kp TAB      &trans  &trans  &trans     &trans       &trans           &kp LEFT  &kp UP    &kp RIGHT      &kp LWIN
+  &kp LS(TAB)  &trans  &trans  &trans     &trans       &trans           &kp HOME  &kp DOWN  &kp END        &to 2
+                       &to 0   &kp LCTRL  &kp ENTER    &trans           &kp RALT  &to 1
             >;
         };
 
