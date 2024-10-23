@@ -97,7 +97,7 @@
         };
 
         lock {
-            bindings = <&kp LC(L)>;
+            bindings = <&kp LG(L)>;
             key-positions = <32 33>;
         };
 
