@@ -99,6 +99,12 @@
             key-positions = <30 28 27>;
             layers = <0>;
         };
+
+        clipboard {
+            bindings = <&kp LG(V)>;
+            key-positions = <33 24 31>;
+            layers = <0>;
+        };
     };
 
     keymap {
