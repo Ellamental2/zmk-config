@@ -45,16 +45,16 @@
         euro: euro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(KP_NUMBER_0) &kp LA(KP_NUMBER_1) &kp LA(KP_NUMBER_2) &kp LA(KP_NUMBER_8)>;
+            bindings = <&kp RA(KP_NUMBER_3)>;
             label = "EURO";
         };
 
-        gb_pound: gb_pound {
+        hash: hash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(KP_NUMBER_0) &kp LA(KP_NUMBER_1) &kp LA(KP_NUMBER_6) &kp LA(KP_NUMBER_3)>;
-            label = "GB_POUND";
-        };
+            bindings = &kt LEFT_ALT &kp LA(KP_NUMBER_0) &kp LA(KP_NUMBER_1) &kp LA(KP_NUMBER_3) &kp LA(KP_NUMBER_5)>;
+            label = "HASH";
+        }
 
         task_manager: task_manager {
             compatible = "zmk,behavior-macro";
@@ -179,6 +179,7 @@
 
         ColemakDH {
             label = "DEF";
+            display-name = "BASE"
             bindings = <
   &kp Q  &kp W  &kp F           &kp P    &kp B        &kp J            &kp L          &kp U      &kp Y                   &kp BACKSPACE
   &kp A  &kp R  &kp S           &kp T    &kp G        &kp M            &kp N          &kp E      &kp I                   &kp O
@@ -188,15 +189,17 @@
         };
 
         Symbols {
+                display-name = "SYM"
             bindings = <
-  &mt C_QUIT ESCAPE  &kp AT        &gb_pound       &kp DOLLAR         &kp PERCENT    &kp AMPERSAND       &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-  &kp TAB            &kp HASH      &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp GRAVE      &mt HOME BACKSLASH  &kp SLASH      &kp LEFT_BRACE        &mt END RIGHT_BRACE    &kp EXCLAMATION
+  &mt C_QUIT ESCAPE  &kp AT        &kp HASH       &kp DOLLAR         &kp PERCENT    &kp AMPERSAND       &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+  &kp TAB            &HASH      &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp GRAVE      &mt HOME BACKSLASH  &kp SLASH      &kp LEFT_BRACE        &mt END RIGHT_BRACE    &kp EXCLAMATION
   &kp TILDE          &kp QUESTION  &kp PIPE        &kp UNDERSCORE     &kp CARET      &kp MINUS           &kp PLUS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 3
                                    &to 0           &kp LEFT_SHIFT     &kp ENTER      &kp SPACE           &kp RALT  &to 2
             >;
         };
 
         Numbers {
+                display-name = "NUM"
             bindings = <
   &kp ESC  &kp K_PLAY_PAUSE  &kp K_PREV            &kp K_NEXT            &kp UNDERSCORE    &kp N7     &kp N8         &kp N9  &kp N0     &kp BACKSPACE
   &kp TAB  &kp K_MUTE        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp PLUS          &kp N4     &kp N5         &kp N6  &kp DOT    &kp MINUS
@@ -206,6 +209,7 @@
         };
 
         Navigation {
+                display-name = "NAV"
             bindings = <
   &kp ESCAPE   &trans  &trans  &trans     &trans     &kp PRINTSCREEN  &trans          &trans    &task_manager  &kp BACKSPACE
   &kp TAB      &trans  &trans  &trans     &trans     &trans           &kp LEFT        &kp UP    &kp RIGHT      &kp LWIN
