@@ -208,7 +208,7 @@
         Navigation {
             bindings = <
   &kp ESCAPE   &trans  &trans  &trans     &trans              &kp PRINTSCREEN  &trans          &trans    &task_manager  &kp BACKSPACE
-  &kp TAB      &trans  &trans  &trans     &msc SCROLL_UP      &trans           &kp LEFT_ARROW  &kp UP    &kp RIGHT      &kp LEFT_WIN
+  &kp TAB      &trans  &trans  &trans     &msc SCROLL_UP      &trans           &kp LEFT        &kp UP    &kp RIGHT      &kp LWIN
   &kp LS(TAB)  &trans  &trans  &trans     &msc SCROLL_DOWN    &trans           &kp HOME        &kp DOWN  &kp END        &to 2
                        &to 0   &kp LCTRL  &kp ENTER           &trans           &kp RALT        &to 1
             >;
