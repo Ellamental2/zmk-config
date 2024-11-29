@@ -99,6 +99,11 @@
             key-positions = <30 28 27>;
             layers = <0>;
         };
+
+        clipboard {
+            bindings = <&kp LG(V)>;
+            key-positions = <24 32 31>;
+        };
     };
 
     keymap {
@@ -107,10 +112,10 @@
         ColemakDH {
             display-name = "DEF";
             bindings = <
-  &kp Q  &kp W  &kp F       &kp P         &kp B              &kp J            &kp L     &kp U      &kp Y                   &kp BACKSPACE
-  &kp A  &kp R  &kp S       &kp T         &kp G              &kp M            &kp N     &kp E      &kp I                   &kp O
-  &kp Z  &kp X  &kp C       &kp D         &mt LG(V) V        &kp K            &kp H     &kp COMMA  &mt EXCLAMATION PERIOD  &kp EQUAL
-                &kp LSHIFT  &mt LALT TAB  &mt LCTRL ENTER    &mt RCTRL SPACE  &kp RALT  &to 1
+  &kp Q  &kp W  &kp F       &kp P         &kp B              &kp J      &kp L     &kp U      &kp Y                   &kp BACKSPACE
+  &kp A  &kp R  &kp S       &kp T         &kp G              &kp M      &kp N     &kp E      &kp I                   &kp O
+  &kp Z  &kp X  &kp C       &kp D         &kp V              &kp K      &kp H     &kp COMMA  &mt EXCLAMATION PERIOD  &kp EQUAL
+                &kp LSHIFT  &mt LALT TAB  &mt LCTRL ENTER    &kp SPACE  &kp RALT  &to 1
             >;
         };
 
