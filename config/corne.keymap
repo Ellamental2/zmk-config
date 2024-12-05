@@ -124,7 +124,7 @@
             bindings = <
   &mt C_QUIT ESCAPE  &kp AT           &kp HASH        &kp DOLLAR         &kp PERCENT    &kp AMPERSAND         &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
   &kp TAB            &kp NON_US_HASH  &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp GRAVE      &mt HOME NON_US_BSLH  &mt PERCENT SLASH  &kp LEFT_BRACE        &mt END RIGHT_BRACE    &kp EXCLAMATION
-  &kp TILDE          &kp QUESTION     &kp PIPE2       &kp UNDERSCORE     &kp CARET      &kp MINUS             &kp PLUS           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 3
+  &kp PIPE           &kp QUESTION     &kp PIPE2       &kp UNDERSCORE     &kp CARET      &kp MINUS             &kp PLUS           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 3
                                       &to 0           &kp LEFT_SHIFT     &kp ENTER      &kp SPACE             &kp RALT           &to 2
             >;
         };
