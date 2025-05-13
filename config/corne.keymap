@@ -104,6 +104,12 @@
             bindings = <&kp LG(V)>;
             key-positions = <24 32 31>;
         };
+
+        clear_bt {
+            bindings = <&bt BT_CLR>;
+            key-positions = <6 7>;
+            layers = <3>;
+        };
     };
 
     keymap {
